@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>lebal fieldset and legend</title>
+</head>
+    <body>
+        <form>
+            <!--first section-->
+            <div>
+                <label>First Name:</label>
+                <input type="text" name="First_name"><br>
+            </div>
+
+            <div>
+                <input type="submit" >
+            </div>
+
+            <br>
+
+            <!--second section-->
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" name="First_name" id="fname"><br>
+            </div>
+            
+            <div>
+                <input type="submit" >
+            </div>
+
+
+            <br><br>
+
+            <!-- third section -->
+            <!-- fieldset border me kar deta hai (taxt ke baher border bana ke border me dal deta hai)-->
+
+            <fieldset>
+                <label for="fi">First Name:</label>
+                <input type="text" name="First_name" id="fi">
+                <label for="lname" >Last Name:</label>
+                <input type="text" name="Last_name" id="lname">
+            </fieldset>
+                
+
+            <fieldset>
+                <label for="address">address:</label>
+                <input type="text" name="address" id="address">
+                <label for="mon_no">Mobile No:</label>
+                <input type="number" name="mobile_no" id="mon_no">
+            </fieldset>
+            
+            <fieldset>
+                <input type="submit" >
+            </fieldset>
+
+        <!-- 4th section -->
+
+            <br> <br>
+
+            <fieldset>
+                <legend>Basic Information:</legend>   <!-- <legend> ye use hota hai border me likane ke liye ki border kiye huye box me kaya hai -->
+                    <label for="fi">First Name:</label>
+                    <input type="text" name="First_name" id="fi">
+                    <label for="lname" >Last Name:</label>
+                    <input type="text" name="Last_name" id="lname">
+            </fieldset>
+
+            <fieldset>
+                <legend>Other Information:</legend>
+                    <label for="address">address:</label>
+                    <input type="text" name="address" id="address">
+                    <label for="mon_no">Mobile No:</label>
+                    <input type="number" name="mobile_no" id="mon_no">
+            </fieldset>
+            
+            <fieldset>
+                <input type="submit" >
+            </fieldset>
+
+        </form>
+    </body>
+</html>

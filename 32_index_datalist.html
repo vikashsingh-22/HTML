@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>datalist</title>
+</head>
+    <body>
+        <form>
+            <!-- this is create search bar like google -->
+            search<input type="text">
+            <input type="submit" value="search">
+
+            <br> <br>
+
+            <!-- The <datalist> tag is used to provide an "autocomplete" feature for <input> elements-->
+            <!-- pre-defined options as they input data.-->  
+            <!-- id phle ek id koi name se defined kar lenge phir 
+            input wale me list="id name " likh denge taki autocomplete ka suggesation de sake--> 
+            
+            search<input type="text" list="fruit">
+            <datalist id="fruit">
+                <option value="Apple">
+                <option value="Mango">
+                <option value="Orange">
+                <option value="car">
+            </datalist>
+            <input type="submit" value="search">
+
+        </form>
+    </body>
+</html>

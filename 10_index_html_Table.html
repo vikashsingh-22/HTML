@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+</head>
+    <body>
+            <!--  <table> it is use for make table-  1->
+
+        <table>
+            <tr>  <!-- row create karne ke liye hota hai  (tr means table row )-->
+                <td>data1</td>   <!-- <td> row me value dalne ke liye use hota hai  (td means table data)-->
+                <td>data2</td>
+                <td>data3</td>
+            </tr>
+
+            <tr>
+                <td>data4</td>
+                <td>data5</td>
+                <td>data6</td>
+            </tr>
+
+            <tr>
+                <td>data7</td>
+                <td>data8</td>
+                <td>data9</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <!-- make table with border -2->
+
+        <table border="20">  <!-- border use for bokrder the table-->
+            <tr>  <!-- row create karne ke liye hota hai-->
+                <td>data1</td>   <!-- <td> row me value dalne ke liye use hota hai-->
+                <td>data2</td>
+                <td>data3</td>
+            </tr>
+
+            <tr>
+                <td>data4</td>
+                <td>data5</td>
+                <td>data6</td>
+            </tr>
+
+            <tr>
+                <td>data7</td>
+                <td>data8</td>
+                <td>data9</td>
+            </tr>
+        </table>
+
+        
+        <br> <br>
+
+        <!-- table column wise 3-->
+
+            <!-- <th> th means table heading-->
+
+        <table border="6">
+            <th>column1</th>  <!-- <th> ye use hota hai column define karne ke liye -->
+            <th>column2</th>   
+            <th>column3</th>
+
+            <tr>
+                <td>data1</td>  
+                <td>data2</td>
+                <td>data3</td>
+            </tr>
+
+            <tr>
+                <td>data4</td>
+                <td>data5</td>
+                <td>data6</td>
+            </tr>
+            
+            <tr>
+                <td>data7</td>
+                <td>data8</td>
+                <td>data9</tda>
+            </tr>
+
+        </table>
+
+
+        <br> <br>
+
+        <!--table row wise-->
+
+            <table border="4">
+            
+                <tr>
+                    <th>row1</th>  <!-- define for row wise-->
+                    <td>data1</td>
+                    <td>data2</td>
+                    <td>data3</td>
+                </tr>
+
+                <tr>
+                    <th>row2</th>  <!-- define for row wise -->
+                    <td>data1</td>
+                    <td>data2</td>
+                    <td>data3</td>
+                </tr>
+
+                <tr>
+                    <th>row3</th>  <!-- define for row wise -->
+                    <td>data1</td>
+                    <td>data2</td>
+                    <td>data3</td>
+                </tr>
+            </table>
+
+
+        <br> <br>
+
+        <!--table row wise with image link etc-->
+
+        <!-- <a> tag is a anker tag ye href ke sath milakar kaam karta hai link ko link karne ke liye-->
+        <!-- <a href> website ko link karane ke liye hoto hai-->
+        <table border="4">
+            
+            <tr>
+                <th>row1</th>  <!-- define for row wise-->
+                <td> <image src="car.jpg" width="500" high="400"></image></td>
+                <td> <a href="https://leetcode.com/vikashsingh_2958/"> leetcode</td>
+                <td>data3</td>
+            </tr>
+
+            <tr>
+                <th>row2</th>  <!-- define for row wise -->
+                <td>data4</td>
+                <td>data5</td>
+                <td>data6</tr>
+            </tr>
+
+            <tr>
+                <th>row3</th>  <!-- define for row wise -->
+                <td>data7</td>
+                <td>data8</td>
+                <td>data9</td>
+            </tr>
+        </table>
+
+
+
+        <br> <br>
+        <!-- marge two column in on column-->
+
+        <!-- <colspan="4"> it is use for marge columan where 4 kitana column marge karna hai ex 2,3, 4,5 -->
+
+        <table border="4">
+            
+            <tr >
+                <th >row1</th>  <!-- define for row wise-->
+                <td> <image src="car.jpg" width="500" high="400"></image></td>
+                <td colspan="2"> 
+                    <a href="https://leetcode.com/vikashsingh_2958/"> leetcode
+                </td>
+                
+            </tr>
+
+            <tr>
+                <th>row2</th>  <!-- define for row wise -->
+                <td>data4</td>
+                <td >data5</td>
+                <td>data6</tr>
+            </tr>
+
+            <tr>
+                <th>row3</th>  <!-- define for row wise -->
+                <td>data7</td>
+                <td>data8</td>
+                <td>data9</td>
+            </tr>
+        </table>
+
+        <br> <br>
+
+
+        <!-- marge two row in one row-->
+
+        <!-- <rowspan="4"> it is use for marge row where 4 kitana row marge karna hai ex 2,3, 4,5 -->
+
+        <table border="4">
+            <caption>Table example</caption>   <!-- <caption> table name / table heading dene ke liye use hota hai jo ki table se connect rahata hai -->
+            
+            <tr >
+                <th rowspan="3" >row1</th>  <!-- define for row wise-->
+                <td> <image src="car.jpg" width="500" high="400"></image></td>
+                <td > 
+                    <a href="https://leetcode.com/vikashsingh_2958/"> leetcode
+                </td>
+                <td>data3</td>
+                
+            </tr>
+
+            <tr>
+                <!--<th >row2</th>  -->
+                <td>data4</td>
+                <td >data5</td>
+                <td>data6</tr>
+            </tr>
+
+            <tr>
+                <!-- <th>row3</th> -->
+                <td>data7</td>
+                <td>data8</td>
+                <td>data9</td>
+            </tr>
+
+            <tr>
+                <th >row4</th>  <!-- define for row wise -->
+                <td>data10</td>
+                <td >data11</td>
+                <td>data12</tr>
+            </tr>
+        </table>
+
+
+        <br> <br>
+
+        <!-- give color with table  ye table ko color karana-->
+
+        <!-- <head> column ko color karne ke liye hota hai -->
+            <!-- style  style karne ke liye hota hai ex green red blue etc-->
+
+        <table border="3">
+                <thead style="color:red">
+                
+                    <th>column1</th>
+                    <th>column2</th>
+                    <th>column3</th>
+                </thead>
+
+                <tbody style="color:green">
+                    <tr>
+                        <td>data1</td>
+                        <td>data2</td>
+                        <td>data3</td>
+                    </tr>
+                
+
+                    <tr>
+                        <td>data4</td>
+                        <td>data5</td>
+                        <td>data6</td>
+                    </tr>
+
+                    <tr>
+                        <td>data7</td>
+                        <td>data8</td>
+                        <td>data9</td>
+                    </tr>
+                </tbody>
+
+                <!-- <tfoot>  tfooter use hota hai table me coloum ko niche likhne ke liye-->
+                
+                <tfoot style="color:aqua">
+                
+                    <th>column1</th>
+                    <th>column2</th>
+                    <th>column3</th>
+                </tfoot>
+
+        </table>
+
+    </body>
+</html>

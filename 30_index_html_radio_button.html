@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>30_index_html_radio_button</title>
+</head>
+    <body>
+        <form>
+            <!-- (type="radio") it make radio type select point ,this type is circle -->
+            <input type="radio" value="Male">Male
+            <input type="radio" value="Female">Female
+            <input type="radio" value="other">Other
+
+            <br> <br>
+
+            <!--(name=gender) only ek point ko salect karne ke liye hota hai), name agar same ho sare input me to ek hi point salect hota hai-->
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="other">Other
+
+            <br> <br>
+
+            <input type="radio" name="emptype" value="manager">manager
+            <input type="radio" name="emptype" value="developer">developer
+
+
+            <br> <br>
+            <!-- (checked) ye jiske age lgate hai wo by defoult selected rahata hai-->
+            <input type="radio" name="emptype" value="manager">manager
+            <input type="radio" name="emptype" value="developer" checked>developer
+
+        </form> 
+    </body>
+</html>

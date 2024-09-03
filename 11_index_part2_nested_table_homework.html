@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> this is nasted table </title>
+</head>
+    <body>
+        <table border="4" style="color:aqua;">
+            <thead style="color:red">
+            <th>Header column 1</th>
+            <th>Header column 2</th>
+            <th>Header column 3</th>
+            <th>Header column 4</th>
+            </thead>
+            <tr>  
+                <!-- for column 1 section-->
+            <tbody style="color:blue">
+                <td>Row 2 - item 1</td>
+                <td>Row 2 - item 2</td>
+                <td rowspan="2"> <br> <br> Row 2: Nested Table 1 <br> <br>
+                    <table border="2">
+                        <tr>
+                            <th>Row 1 Header</th>
+                            <td>item</td>
+                        </tr>
+
+                        <tr>
+                            <th>Row 2 Header</th>
+                            <td>item</td>
+                        </tr>
+
+                        <tr>
+                            <th>Row 2 Header</th>
+                            <td>item</td>
+                        </tr>
+                        
+                    </table>
+                    <br>
+                </td>
+                <td>Row 2 - item 4 <br> A second line</td>
+
+            </tr>
+
+            <tr>
+                <!-- for column 2 section-->
+                <th>Row3: Nested Table 2 <br> <br>
+
+                    <table border="2">
+                        <tr>
+                            <th>Row 1 Header</th>
+                            <td>item</td>
+                        </tr>
+
+                        <tr>
+                            <th>Row 2 Header</th>
+                            <td>item</td>
+                        </tr>
+                    </table>
+                
+                </th>     
+                <td>Row 3 - Item 2</td>
+                <!-- <td>nested ....</td> -->
+                <td rowspan="2">row3 - Item 3</td>
+            </tr>
+
+            <tr>
+                <!-- for column 3 section-->
+                <td>Row 4 - Item 1</td>
+                <td>Row 2 - Item 2</td>
+                <td>Row 4: Item 3</td>
+            </tr>
+
+            <tr>
+                <!-- for column 4 section-->
+                <td colspan="4">Row 5 - Last row of out table</td>
+            </tr>
+        </tbody>
+
+
+        </table>
+    </body>
+</html>

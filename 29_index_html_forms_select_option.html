@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>html forms select option</title>
+</head>
+    <body>
+        
+        <form>
+            <!-- (selected) by defult phle se hi selected rhega -->
+            <select>
+                <option value="1">audi</option>
+                <option value="2" selected>tata</option>
+                <option value="3">BMW</option>
+            </select>
+
+
+
+            <br> <br>
+            <!-- (multiple) multiple select ke liye hota hai (size="2" means ek sath 2 select kar sakate hai)-->
+
+            <select size="2" multiple>
+                <option value="1">audi</option>
+                <option value="2" selected>tata</option>
+                <option value="3">BMW</option>
+            </select>
+
+
+            <br> <br>
+
+            <select size="2" multiple>
+                <option value="1">audi</option>
+                <option value="2" selected>tata</option>
+                <option value="3">BMW</option>
+            </select>
+
+
+            <br> <br>
+
+            <!-- (Optgroup) option group , group me batne ke liye hota hai-->
+            <!-- (label="car") lebel wise name deta hai-->
+            <select >
+                <Optgroup label="Car">
+                    <option value="1">audi</option>
+                    <option value="2" selected>tata</option>
+                    <option value="3">BMW</option>
+                </Optgroup>
+                
+                <Optgroup label="Sports">
+                    <option value="1">cricket</option>
+                    <option value="2" >football</option>
+                    <option value="3">golf</option>
+                </Optgroup>
+
+
+            </select>
+        </form>
+    </body>
+</html>
